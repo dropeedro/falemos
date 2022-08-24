@@ -1,0 +1,200 @@
+header{
+    height: 8rem;
+    display: flex;
+    border-bottom: 1px #dfe7d780 solid;
+    background-color: #F6B73E;
+}
+
+.logo-container{
+    width: 33%;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+.header-buttons{
+    background-color: #F6B73E;
+    float: right;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 8rem;
+}
+
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+.button {
+    width: 8rem;
+    height: 2rem;
+	cursor: pointer;
+	background: #f7fbee;
+	padding: 1.5rem;
+    padding-left: 0px;
+    padding-right: 0px;
+	font-size: inherit;
+	position: relative;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.button::before,
+.button::after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+.button--mimas {
+	text-transform: uppercase;
+	letter-spacing: 0.05rem;
+	font-weight: 700;
+	font-size: 0.8rem;
+	border-radius: 0.5rem;
+	overflow: hidden;
+	color: #fff;
+	background: #f7fbee;
+    border-radius: 50px;
+}
+
+.button--mimas span {
+	position: relative;
+	mix-blend-mode: difference;
+
+}
+
+.button--mimas::before {
+	content: '';
+	background: black;
+	width: 120%;
+	left: -10%;
+	transform: skew(30deg);
+	transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+}
+
+.button--mimas:hover::before {
+	transform: translate3d(100%,0,0);
+}
+
+
+.login-content{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	align-content: center;
+}
+
+.login-title > h1{
+	font-weight: 800;
+	font-size: 2rem;
+}
+
+
+
+.menu-login{
+	align-items: center;
+	text-align: center;
+	align-content: center;
+	justify-content: center;
+}
+.form-login{
+	align-items: center;
+	text-align: center;
+	align-content: center;
+	justify-content: center;
+}
+
+.input-email, 
+.input-pass, 
+.input-pass-2,
+.input-name, 
+.input-last-name,
+.input-address,
+.input-language,
+.input-phone,
+.input-btn-login{
+	padding: 10px;
+}
+
+.email, 
+.pass,
+.pass-2,
+.name, 
+.last-name,
+.address,
+.phone,
+.language,
+.city,
+.state{
+	padding: 10px;
+	width: 100%;
+	height: 50px;
+}
+
+.modal-body, .modal-content{
+	/* height: 500px; */
+	justify-content: center;
+	border-radius: 30px;
+	background-color: #f7fbee;
+}
+
+.btn-send{
+	
+	margin-top: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 300px;
+	height: 60px;
+    border: 0px;
+    border-radius: 10px;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    background-color: #F8B735;
+    transition: 0.2s;
+}
+
+.btn-send:hover{
+    box-shadow: var(--shadow-elevation-low);
+    transform: scale(1.01);
+    background-color: #FCB502;
+}
+
+.sign-up{
+	margin-top: 10px;
+}
+
+.form-sign-up{
+	margin-top: 10px;
+	border-top: 1px #8b8d87 solid;
+	padding: 10px;
+	font-size: 1rem;
+}
+
+.sign-up-link{
+	background-color: #F6B73E;
+	padding: 8px;
+	border-radius: 20px;
+	box-shadow: var(--shadow-elevation-medium);
+	font-size: 0.8rem;
+	border: 0px;
+}
+
+.modal-header{
+	border: 0px;
+	padding-top: 30px;
+	padding-right: 30px;
+}
+

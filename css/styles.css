@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;200;400;500;600;700;800;900&display=swap');
+
+body{
+    background-color: #f7fbee;
+    font-family: var(--base-font-family);
+    font-weight: 500;
+}
+
+.container{
+    background-color: #f7fbee;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+.content-info{ 
+     display: flex; 
+     border: 0;
+     
+}
+
+.go-back{
+    padding: 10px;
+    margin-bottom: 10px;
+    transition: 0.2s;
+    width: 5rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.go-back:hover{
+    transform: scale(1.05);
+    transform: translateX(-1rem);
+}
+
+
+.prof-info{
+    padding: 10px;
+    width: 17rem;
+    align-items: center;
+    border-radius: 20px;
+    top: 20px;
+    border: 0px;
+    position: sticky;
+    height: 20%;
+
+}
+
+.btn-request{
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 12rem;
+    border: 0px;
+    border-radius: 10px;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    background-color: #F8B735;
+    transition: 0.2s;
+}
+
+.btn-request:hover{
+    box-shadow: var(--shadow-elevation-low);
+    transform: scale(1.01);
+    background-color: #FCB502;
+}
+
+.card-prof{
+    background-color: #f7fbee;
+    align-items: center;
+    padding: 20px;
+    border: 0px;
+    box-shadow: var(--shadow-elevation-medium);
+}
+
+.prof-text{
+    padding: 20px;
+    /* box-shadow: var(--shadow-elevation-medium); */
+    border-radius: 20px;
+    border: 0px;
+}
+
+.img-prof{
+    width: 10rem;
+    height: 10rem;
+    margin-bottom: 10px;
+}
+.card-img-top{
+    border: 0px #F8B735 solid;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.table-info-prof{ 
+    width: 10rem;
+}
+
+
+td{
+    text-align: right;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+}
+th{
+    text-align: left;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+}
+
+.prof-body{
+    font-size: 27px;
+    font-weight: 800;
+}
+
+.prof-body-back{
+    background-color: #F6B73E;
+    box-shadow: var(--shadow-elevation-medium);
+    border: 0;
+    padding: 20px;
+}
+
+
+.about{
+    margin-top: 50px;   
+    line-height: 1cm; 
+    
+}
+.about-prof{
+    margin-top: 50px;   
+    line-height: 1cm; 
+    
+}
+
+
+.info{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    min-width: 100%;
+    /* height: 80px; */
+    padding: 5px;
+    float: left; 
+    margin-bottom: 40px;
+    
+}
+
+.info > div {
+    text-align: left;
+    min-width: 50px;
+    margin-right: 5px;
+}
+
+.info-class{
+    width: 8rem;
+    height: 8rem;
+    text-align: left;
+    font-size: 12px;
+    font-weight: 800;
+    border-radius: 20%;
+    padding: 10px;
+    padding-left: 20px;
+    line-height: 0%;
+    justify-content: center;
+    background-color: rgb(240, 207, 163);
+}
+
+.icons{
+    background-color: #F8B735;
+    border-radius: 50%;
+    width: 2rem;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.card{
+    border-radius: 30px;
+}
+
+.student-review-name{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-start;
+}
+
+.icons-student{
+    background-color: #F8B735;
+    border-radius: 50%;
+    width: 2rem;
+    padding: 5px;
+    text-align: center;
+}
+
+.name-student{
+    padding-left: 10px;
+    padding-top: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+.bi-star-fill{
+    color: #FCB502;
+}
+
+.stars{
+    background-color:  #FFFBF0;
+    /* width: 200px; */
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.reviews{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.reviews-title{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.bi-info-circle{
+    padding: 10px;
+}
+
+
+.reviews-container{
+    margin-bottom: 15px;
+    border: 0px;
+    box-shadow: var(--shadow-elevation-medium);
+}
+.video-config{
+    background-color: blue;
+    width: 640px;
+    height: 360px;
+    border-radius: 20px;
+}
+
+
+.tooltip-inner {
+    max-width: 350px;
+    /* If max-width does not work, try using width instead */
+    width: 350px; 
+    padding: 20px;
+}
+
+
+.card-img{
+    width: 248px;
+    border-radius: 20px;
+}
+
+.card-related{
+    width: 250px;
+    margin-right: 20px;
+    border-radius: 20px;
+    box-shadow: var(--shadow-elevation-medium);
+    height: 500px;
+    transition: 0.2s;
+}
+
+.card-related:hover{
+    transform: scale(1.02);
+    box-shadow: var(--shadow-elevation-high);
+}
+.related-prof-content{
+    display: flex;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+.card-body-related > p{
+    line-height: 1;
+    font-size: 15px;
+    text-align: left;
+    margin-top: 5px;
+    padding-bottom: 10px;
+    line-height: 0.5cm;
+}
+
+.card-title-related{
+    line-height: 0;
+}
+
+:root {
+    --shadow-color: 0deg 0% 0%;
+    --shadow-elevation-low:
+      -0.3px 0.4px 0.6px hsl(var(--shadow-color) / 0.11),
+      -0.4px 0.7px 0.9px -1.2px hsl(var(--shadow-color) / 0.11),
+      -1.1px 1.8px 2.4px -2.5px hsl(var(--shadow-color) / 0.11);
+    --shadow-elevation-medium:
+      -0.3px 0.4px 0.6px hsl(var(--shadow-color) / 0.11),
+      -0.9px 1.5px 2px -0.8px hsl(var(--shadow-color) / 0.11),
+      -2.2px 3.7px 4.8px -1.7px hsl(var(--shadow-color) / 0.11),
+      -5.5px 9.1px 12px -2.5px hsl(var(--shadow-color) / 0.11);
+    --shadow-elevation-high:
+      -0.3px 0.4px 0.6px hsl(var(--shadow-color) / 0.11),
+      -1.6px 2.7px 3.5px -0.4px hsl(var(--shadow-color) / 0.11),
+      -3px 5.1px 6.7px -0.7px hsl(var(--shadow-color) / 0.11),
+      -5px 8.4px 11px -1.1px hsl(var(--shadow-color) / 0.11),
+      -8px 13.4px 17.6px -1.4px hsl(var(--shadow-color) / 0.11),
+      -12.5px 20.9px 27.4px -1.8px hsl(var(--shadow-color) / 0.11),
+      -19.1px 31.8px 41.7px -2.1px hsl(var(--shadow-color) / 0.11),
+      -28.1px 46.9px 61.5px -2.5px hsl(var(--shadow-color) / 0.11);
+
+      --base-font-family: 'Libre Franklin',sans-serif;
+  }
